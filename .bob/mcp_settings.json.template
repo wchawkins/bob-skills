@@ -7,6 +7,9 @@
         "@modelcontextprotocol/server-github"
       ],
       "env": {
+        // Get your token at: https://github.com/settings/tokens
+        // Required scopes: repo (for full repository access)
+        // Copy this file to .bob/mcp_settings.json and replace the placeholder
         "GITHUB_PERSONAL_ACCESS_TOKEN": "<your_github_token_here>"
       }
     }
